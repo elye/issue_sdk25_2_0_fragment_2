@@ -15,6 +15,6 @@ class FragmentTwo : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        fragment_button.setOnClickListener {  (activity as MainActivity).openFragmentFour() }
+        fragment_button.setOnClickListener {  (activity as MainActivity).openFragmentThree() }
     }
 }

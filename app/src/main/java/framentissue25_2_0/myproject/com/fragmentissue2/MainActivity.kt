@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction().replace(R.id.container, FragmentOne()).commit()
     }
 
-    fun openFragmentThree() {
+    fun openFragmentTwo() {
         supportFragmentManager.beginTransaction().replace(R.id.container, FragmentTwo()).addToBackStack("").commit()
     }
 
-    fun openFragmentFour() {
+    fun openFragmentThree() {
         supportFragmentManager.beginTransaction()
                 // Uncomment below to fix the issue in 25.2.0
                 // .setAllowOptimization(true)
